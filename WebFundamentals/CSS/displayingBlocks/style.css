@@ -2,6 +2,14 @@
     padding: 0px;
 }
 
+#wrapper{
+    margin: 0 auto;
+    text-align: center;
+    width:1200px;
+    background-color: rgb(213,210,174);
+    padding:20px
+}
+
 #header img{
     height: 75px;
     border: none;
@@ -17,7 +25,7 @@ img{
 .row .tile{
     display: inline;
     margin-right: 0px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 
 }
 .blue img{
@@ -26,11 +34,7 @@ img{
 .red img{
     background-color: rgb(243,104,112);
 }
-#wrapper{
-    width:700px;
-    background-color: rgb(213,210,174);
-    padding:20px;
-}
+
 
 #header{
     display: inline;
@@ -38,8 +42,8 @@ img{
     text-align: center;
 }
 #header_block{
-    margin-left: auto;
-    margin-right: 25;
+    /* margin-left: auto; */
+    /* margin-right: 25; */
     display: inline;
 }
 h1{
