@@ -1,0 +1,16 @@
+*{
+    padding:0;
+}
+
+#wrapper{
+    width: 970px;
+    background-color: rgb(27,52,93);
+    padding: 20px;
+    
+}
+
+#header{
+    background-color: rgb(207,48,54);
+    padding: 15px;
+    border-radius: 20px;
+}
