@@ -42,12 +42,10 @@
 }
 
 .searchBlock{
-    /* display: inline-block; */
     vertical-align: top;
     float:right;
     height: 56px;
     width: 279px;
-    /* outline: 1px dotted red; */
     margin: 10px 15px 10px 15px;
     background-color: rgb(68,68,68);
     border-radius: 10px;
@@ -61,7 +59,6 @@
     text-align: center;
     color:rgb(205,205,205);
     border: 2px solid #555;
-    /* display: inline-block; */
 }
 .search{
     display: inline-block
@@ -70,11 +67,9 @@
 .buttonblock{
     display: inline-block;
     margin: 0px;
-    /* background-color: rgb(37,81,119); */
 
 }
 .button{
-    /* display:inline-block; */
     width:30px;
     height: 30px;
     background-color: rgb(37,81,119);
@@ -88,7 +83,6 @@
     height:40px;
     width: 88%;
     margin: 10px 30px 10px auto;
-    /* outline: 1px dotted red; */
     background-color: rgb(70,126,173);
     border-radius: 5px;
     box-shadow: 2px 2px;
@@ -106,16 +100,12 @@
 .main{
     width: 88%;
     margin: 10px 30px 10px auto;
-    
-    /* outline: 1px dotted red; */
-
 }
 
 .indexSection{
     height: auto;
     width:25%;
     margin-top: 15px;
-    /* outline: 1px dotted red; */
     text-align: center;
     display: inline-block;
 }
@@ -124,7 +114,6 @@
 }
 .indexSection ul{
     margin: 10px 0px;
-    /* list-style: none; */
 }
 .indexSection li{
     list-style-type: none;
@@ -132,16 +121,12 @@
 }
 .textbox{
     margin: 0;
-    /* height: auto; */
     width: 75%;
-    /* outline: 1px dotted yellow; */
-    /* display: inline-block; */
     vertical-align: top;
     float: right;
     text-align: center;
     color: white;
     font-size: 12 px;
-    /* padding: 0px 5px; */
 }
 .textbox p{
     color: white
@@ -149,25 +134,19 @@
 .textbox span{
     color: rgb(229,196,57);
     font-style: italic;
-    /* font-size: 18px; */
 }
 
 .lowerSection{
-    /* margin-top: 60px; */
-    /* outline: 1px dotted red; */
     height: 275px;
     background-color: white;
 }
 
 .lowercontent{
-    /* outline: 1px dotted red; */
     height: 263px;
     margin-bottom: 0;
 }
 .lowerleft{
     width: 45%;
-    /* height: 500px; */
-    /* outline: 1px dotted orange; */
     display: inline-block;
     text-align: center;
     padding: 0px 20px;
@@ -192,8 +171,6 @@
 .lowerright{
     width: 45%;
     height: auto;
-    /* outline: 3px dotted blue; */
-    /* display: inline-block; */
     float:right;
     text-align: center;
     padding: 0px 20px;
