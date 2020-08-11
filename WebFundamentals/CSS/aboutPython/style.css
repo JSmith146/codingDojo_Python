@@ -1,3 +1,16 @@
+.navbarsection, .indexSection, .textbox {
+    font-family: 'NimbusSanLConRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.lowerSection p,h3,a {
+    font-family: 'Noto Sans', sans-serif;
+}
+.footer p{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0px;
+}
 .container{
     width: 970px;
     height: 800px;
@@ -61,10 +74,11 @@
 
 }
 .button{
-    display:inline-block;
-    width:50px;
-    height: 50px;
-    /* background-color: rgb(37,81,119); */
+    /* display:inline-block; */
+    width:30px;
+    height: 30px;
+    background-color: rgb(37,81,119);
+    text-align: center;
 }
 
 .navbarsection{
@@ -129,21 +143,26 @@
     font-size: 12 px;
     /* padding: 0px 5px; */
 }
+.textbox p{
+    color: white
+}
 .textbox span{
     color: rgb(229,196,57);
     font-style: italic;
+    /* font-size: 18px; */
 }
 
 .lowerSection{
-    margin-top: 60px;
+    /* margin-top: 60px; */
     /* outline: 1px dotted red; */
-    /* height: 500px; */
+    height: 275px;
     background-color: white;
 }
 
 .lowercontent{
     /* outline: 1px dotted red; */
-    height: 300px;
+    height: 263px;
+    margin-bottom: 0;
 }
 .lowerleft{
     width: 45%;
@@ -163,7 +182,12 @@
 }
 .lowerleft h3{
     margin-top: 5px;
-    margin-bottom: 10px;}
+    margin-bottom: 10px;
+}
+.lowerright h3{
+    margin-top:5px;
+    margin-bottom: 10px;
+}
 
 .lowerright{
     width: 45%;
@@ -173,6 +197,14 @@
     float:right;
     text-align: center;
     padding: 0px 20px;
+}
+.lowerleft p, .lowerright p{
+    font-size: 14px;
+    color:black;
+}
+.lowerleft a, .lowerright a{
+    color:rgb(193,216,236);
+    font-size: 14px;
 }
 .footer{
     background-image: linear-gradient(to bottom,rgb(36,80,119),rgb(51,114,170)) ;
@@ -185,11 +217,13 @@
 }
 .footer li{
     display: inline-block;
-    margin: 50px 40px 30px 60px;
+    margin: 50px 10px;
 }
-.footer a,p{
+.footer a,p, span{
     color: rgb(88,141,189);
     text-decoration: none;
-
-
+}
+.footer ul{
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
