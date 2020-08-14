@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    margin: 0px auto;
+    font-family: 'Miriam Libre', sans-serif;
+    width: 970px;
+    background-color: rgb(221,223,212);
+    padding:20px;
+    color: white;
+}
+#header{
+    padding: 15px;
+    background:rgb(56,176,173);
+}
+#header img{
+    height: 40px;
+    display: inline-block;
+}
+#header h1{
+    margin: 0px;
+    display: inline-block;
+    vertical-align: top;
+    color: black;
+}
+#header ul{
+    padding-left: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+#header li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-around;
+    margin:0px 5px;    
+}
+#header a{
+    color: white;
+}
+#main{
+    background: rgb(251,230,145);
+    margin-top: 20px;
+    padding:15px;
+}
+#side-content{
+    background: rgb(21,63,67);
+    padding: 15px;
+    width: 185px;
+    display:inline-block;
+    }
+#side-content h3{
+    margin-top:0px;
+}
+#side-content p{
+    padding-left:5px;
+    font-size: 12px;
+}
+#center-content{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 720px;
+}
+span{
+    color:rgb(74,213,197);
+}
+.row{
+    display: inline-flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.block{
+    background-color:rgb(21,63,67);
+    margin: 0px 25px;
+}
+.block h4{
+    text-align: left;
+    margin: 10px;
+}
+.block p{
+    font-size: 12px;
+    text-align: left;
+    padding:0px 50px 0px 20px;
+}
+.block-3{
+    width: 180px;
+    height: 200px;
+}
+#footer{
+    padding: 20px 0px;
+    background: rgb(74,213,197);
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    margin-top:10px;
+}
