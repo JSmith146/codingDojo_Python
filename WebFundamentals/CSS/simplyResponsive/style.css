@@ -26,19 +26,20 @@
     display: none;
 } */
 
-@media screen and (max-width:480px){
+@media only screen and (min-width:0px){
+    .phone{display: inline-block;}
     .desktop{display:none;}
     .tablet{display: none;}
-    .phone{display: inline-block;}
+    
         
     }
-@media screen and (max-width:481px){
+@media only screen and (min-width:481px){
     .desktop{display:none;}
     .tablet{display: inline-block;}
     .phone{display: none;}
         
     }
-@media screen and (max-width:1024px){
+@media only screen and (min-width:1024px){
     .desktop{display:inline-block;}
     .tablet{display: none;}
     .phone{display: none;}
