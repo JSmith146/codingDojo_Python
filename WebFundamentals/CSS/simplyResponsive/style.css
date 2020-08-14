@@ -19,14 +19,13 @@
 #row-3{
     background-color: rgb(255,255,154);
 }
-.desktop{
+/* .desktop{
     display: inline-block;
-}
-.tablet{
-    /* display: none; */
-}
-/* .phone{display: none; */
-}
+} */
+/* .tablet{
+    display: none;
+} */
+
 @media screen and (max-width:480px){
     .desktop{display:none;}
     .tablet{display: none;}
