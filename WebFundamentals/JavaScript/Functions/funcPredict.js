@@ -1,37 +1,35 @@
 // Predict 1:
-// Prediction: [0,1,2,...,14]
-function predict1(){
-    for(var num=0; num<15; num++){
-        console.log(num)
-    }
+// Prediction: "Hello"
+function greeting(){
+    return "Hello";
+    console.log("World");
 }
-// Uncomment for output
-// predict1();
+var word = greeting();
+console.log(word);
 
 // Predict 2:
-// Prediction: 3, 9
-function predict2(){
-    for(var i=1; i<10; i+=2){
-        if(i % 3 ==0){
+// Prediction: Summing Numbers! num1 is: 3 num2 is: 5
+function add(num1, num2){
+    console.log("Summing Numbers!");
+    console.log("num1 is: "+ num1);
+    console.log("num2 is: "+ num2);
+    var sum = num1 +num2;
+    return sum;
+}
+var result1= add(3,5);
+var result2= add(4,7);
+console.log(result1);
+console.log(result2);
+
+// Predict 3:
+// Prediction: '''Nothing is printed'''
+function highFive(num){
+    for(var i=0; i<num; i++){
+        if(i==5){
+            console.log("High Five!");
+        }
+        else{
             console.log(i);
         }
     }
 }
-// Uncomment for output
-// predict2();
-
-// Predict 3:
-// Prediction: [1,4,5,8,10,11,14,16]
-function predict3(){
-    for(var j = 1; j<=15; j++){
-        if(j % 2 ==0){
-            j+=2;
-        }
-        else if(j % 3 == 0){
-            j++;
-        }
-        console.log(j);
-    }
-}
-// Uncomment for output
-// predict3();
