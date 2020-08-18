@@ -18,4 +18,20 @@ function predict2(){
     }
 }
 // Uncomment for output
-predict2();
+// predict2();
+
+// Predict 3:
+// Prediction: [1,4,5,8,10,11,14,16]
+function predict3(){
+    for(var j = 1; j<=15; j++){
+        if(j % 2 ==0){
+            j+=2;
+        }
+        else if(j % 3 == 0){
+            j++;
+        }
+        console.log(j);
+    }
+}
+// Uncomment for output
+// predict3();
