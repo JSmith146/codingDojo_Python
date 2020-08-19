@@ -172,7 +172,7 @@ function p13(arr){
     }
     console.log(arr);
 }
-p13(arr);
+// p13(arr);
 
 
 
