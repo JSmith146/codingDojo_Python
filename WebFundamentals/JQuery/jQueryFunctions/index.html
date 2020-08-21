@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My jQuery basic assignment!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#addClass button").click(function(){
+                $("#addClass p").addClass("red");
+            });
+            $("#slideToggle button").click(function(){
+                $("#slideToggle img").toggle();
+            });
+            $("#append button").click(function(){
+                $("#append p").append("This is my new paragraph");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="wrapper">
+        <section id="addClass" class="block">
+            <h1>AddClass</h1>
+            <button>AddClass</button>
+            <p>Click the button to add 
+                class 'red' to this paragraph</p>
+        </section>
+        <section id="slideToggle" class="block">
+            <h1>Slidetoggle</h1>
+            <button>Slidetoggle</button>
+            <p>Click the button to slidetoggle a hidden image</p>
+            <img src="img/GCFC_BlackPanther_Front.png" alt="">
+        </section>
+        <section id="append" class="block">
+            <h1>Append</h1>
+            <button>Append</button>
+            <p>Click the button to append a new paragraph!</p>
+            
+        </section>
+    </div>
+    
+</body>
+</html>
