@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 970px;
+    margin: 50px auto;
+    /* display: ; */
+}
+
+#img-block img{
+    display: block;
+    margin-bottom: 10px;
+}
