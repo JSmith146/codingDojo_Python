@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover In/Out</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("img").hover(function(){
+                    $(this).attr("src", $(this).attr("alt-src"));
+                },function(){
+                    $(this).attr("src", "img/card-img.png")
+
+                }
+            )
+        })
+    </script>
+</head>
+<body>
+    <div id="container">
+        <div id="img-block">
+            <img src="img/card-img.png" alt="playing-card-back" alt-src="img/batman.png">
+            <img src="img/card-img.png" alt="playing-card-back" alt-src="img/flash.png">
+            <img src="img/card-img.png" alt="playing-card-back" alt-src="img/green-lantern.png">
+            <img src="img/card-img.png" alt="playing-card-back" alt-src="img/iron-man.png">
+            <img src="img/card-img.png" alt="playing-card-back" alt-src="img/spider-man.jpg">
+            <img src="img/card-img.png" alt="playing-card-back" alt-src="img/superman.png">
+            <img src="img/card-img.png" alt="playing-card-back" alt-src="img/thanos.png">
+            <img src="img/card-img.png" alt="playing-card-back" alt-src="img/wolverine.png">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 970px;
+    margin: 0px auto;
+}
+
+img{
+    width: 150px;
+    margin: 25px;
+}
