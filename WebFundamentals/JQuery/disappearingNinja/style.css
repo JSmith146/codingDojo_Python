@@ -1,0 +1,16 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#container{
+    width: 970px;
+    margin: 50px auto;
+}
+#img-container img{
+    width:100px;
+    margin: 50px;
+}
+.hidden{
+    display: none;
+}
