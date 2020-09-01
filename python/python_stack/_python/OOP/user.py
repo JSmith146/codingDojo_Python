@@ -42,7 +42,7 @@ susan.display_user_balance()
 
 john.display_user_balance()
 susan.display_user_balance()
-john.transfer_money("susan",100)
+john.transfer_money(susan,100)
 john.display_user_balance()
 susan.display_user_balance()
 
