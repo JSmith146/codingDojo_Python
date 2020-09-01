@@ -1,11 +1,5 @@
 import random
 def randInt(min=0, max=100):
-    if min > max:
-        temp = max
-        max = min
-        min = temp
-    elif max <0:
-        return null
     num = round(random.random()*(max-min) + min)
     return num
 
