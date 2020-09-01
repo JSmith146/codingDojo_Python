@@ -6,7 +6,7 @@ def randInt(min=0, max=100):
         min = temp
     elif max <0:
         return null
-    num = round(random.random()*max + min)
+    num = round(random.random()*(max-min) + min)
     return num
 
 
