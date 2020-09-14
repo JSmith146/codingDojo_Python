@@ -1,0 +1,9 @@
+python_stack
+|-- my_environments
+|-- _python (the underscore IS IMPORTANT)
+ |-- python_fundamentals
+ |-- OOP
+|-- django
+ |-- django_fundamentals
+ |-- django_orm
+   |-- django_fullstack
