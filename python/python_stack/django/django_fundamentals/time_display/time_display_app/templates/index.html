@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Display App</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <div id="container">
+        <div id="top_block">
+            <h4>The current time and date:</h4>
+            <div id="time-date-block">
+                <div id="date-block">
+                    {{ date }}
+                </div>
+                <div id="time-block">
+                    {{ time }}
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
