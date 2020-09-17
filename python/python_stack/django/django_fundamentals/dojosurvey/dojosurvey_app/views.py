@@ -1,4 +1,4 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render, HttpResponse,redirect
 
 # Create your views here.
 def index(request):
@@ -9,4 +9,7 @@ def submission(request):
     request.session["form_location"]= request.POST['location']
     request.session["form_language"]= request.POST['lang']
     request.session["form_comment"]= request.POST['comment']
-    return render(request, "result.html")
+    return redirect("/result")
+
+def result(request):
+    return render(request,"result.html")
