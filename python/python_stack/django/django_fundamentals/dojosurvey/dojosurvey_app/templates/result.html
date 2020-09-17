@@ -12,10 +12,10 @@
         <div id="results">
             <div id="results_box">
                 <h2>Submitted Info</h2>
-                <h3>Name: {{form_name}}</h3>
-                <h3>Dojo Location: {{form_location}}</h3>
-                <h3>Favorite Language: {{form_language}}</h3>
-                <h3>Comment: {{form_comment}}</h3>
+                <h3>Name: {{request.session.form_name}}</h3>
+                <h3>Dojo Location: {{request.session.form_location}}</h3>
+                <h3>Favorite Language: {{request.session.form_language}}</h3>
+                <h3>Comment: {{request.session.form_comment}}</h3>
             </div>
             <button onclick="window.location.href='/'">
                 Go Back
