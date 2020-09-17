@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    {% load static %}
+    <link rel="stylesheet" href="{%static 'css/style.css' %}">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="results">
+            <div id="results_box">
+                <h2>Submitted Info</h2>
+                <h3>Name: {{form_name}}</h3>
+                <h3>Dojo Location: {{form_location}}</h3>
+                <h3>Favorite Language: {{form_language}}</h3>
+                <h3>Comment: {{form_comment}}</h3>
+            </div>
+            <button onclick="window.location.href='/'">
+                Go Back
+            </button>
+            
+        </div>
+    </div>
+</body>
+</html>

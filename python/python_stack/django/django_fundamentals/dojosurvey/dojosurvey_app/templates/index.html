@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Survey</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <div id="wrapper">
+        <form id="form_box"action="/submission" method="POST">
+            {% csrf_token %}
+            <label for="name">Your Name:</label>
+            <input type="text" name="name" id="name"><br>
+            <label for="location">Dojo Location:</label>
+            <select name="location" id="location">
+                <option value="seattle">Seattle</option>
+                <option value="san_jose">San Jose</option>
+                <option value="berkeley">Berkeley</option>
+                <option value="burbank">Burbank</option>
+                <option value="chicago">Chicago</option>
+                <option value="arlington">Arlington</option>
+                <option value="dallas">Dallas</option>
+                <option value="orange_county">Orange County</option>
+                <option value="tulsa">Tulsa</option>
+                <option value="boise">Boise</option>
+                <option value="online">Online</option>
+            </select><br>
+            <label for="lang">Favorite Language:</label>
+            <select name="lang" id="lang">
+                <option value="python">Python</option>
+                <option value="mern">MERN</option>
+                <option value="java">Java</option>
+            </select><br>
+            <label for="comment">Comment (optional):</label><br>
+            <textarea name="comment" id="comment" cols="100" rows="10"></textarea>
+            <br>
+            <input type="submit" name="submit_btn" id="sumbit_btn" >
+        </form>
+    </div>
+</body>
+
+</html>

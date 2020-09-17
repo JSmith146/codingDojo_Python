@@ -1,0 +1,35 @@
+#wrapper{
+    width:970px;
+    margin:0px auto;
+}
+
+#form_box{
+    margin-top: 50px;
+    padding:10px;
+    border: 2px solid black;
+}
+#form_box label,input,select{
+    margin-bottom: 20px;
+    width: 175px;
+}
+
+input, select{
+    display: block;
+    direction: ltr;
+}
+
+#results{
+    margin-top: 50px;
+    padding:10px;
+    border: 2px solid black;
+    height: 500px;
+}
+
+h1{
+    color: red
+}
+
+button {
+    margin-left: 700px;
+    width:200px;
+}
