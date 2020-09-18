@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Word Generator</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    
+</head>
+
+<body>
+    <div id="wrapper">
+        <h2>Random Word (attempt #{{request.session.count}})</h2>
+        <div id="word-box">
+            <h1>{{request.session.random_word}}</h1>
+        </div>
+    
+    <button class = "btn reset" onclick="location.href='/reset'">Reset</button>
+    <br>
+    <button class = "btn plus_one" onclick="location.href='/plus_one'">Generate</button>
+    </div>
+</body>
+</html>
