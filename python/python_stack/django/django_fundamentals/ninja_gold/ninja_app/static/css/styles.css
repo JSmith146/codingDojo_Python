@@ -1,0 +1,54 @@
+* {
+    font-family: 'Hermit', monospace;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+header button {
+    padding: 1.2em;
+    font-size: 1.3rem;
+}
+h1,h2,h3,h4,h5{
+    color: orange;
+}
+h1 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px black;
+}
+body {
+    padding: 2em;
+}
+.earn {
+    color: green;
+}
+.lose {
+    color: red;
+}
+#buildings {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+h1, #buildings h3 {
+    margin: 0;
+}
+#buildings * {
+    font-size: 1rem;
+}
+#buildings > div {
+    width: 19%;
+    height: 10rem;
+    padding: 2em;
+    border: solid black 2px;
+    background-color: #2F2F2F;
+}
+#activities {
+    height: 12rem;
+    overflow-y: scroll;
+    border: solid;
+    padding: 1rem;
+}
+#activities p {
+    margin-top: 0;
+}
