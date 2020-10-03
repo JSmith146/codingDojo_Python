@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Edit {{one_dog_edit.name}}</h1>
+    <form action="/dogs/{{one_dog_edit.id}}/update" method="POST">
+        {% csrf_token%}
+        Name: <input type="text" name="dog_name" id="dog_name" value={{one_dog_edit.name}}>
+        Age: <input type="number" name="age" value={{one_dog_edit.age}}>
+        <input type="submit" value="Save Edits!">
+        </form>
+    
+</body>
+</html>

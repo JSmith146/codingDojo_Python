@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/dogs/create" method="POST">
+        {% csrf_token%}
+        Name: <input type="text" name="dog_name" id="dog_name">
+        Age: <input type="number" name="age">
+        <input type="submit" value="Create a Dog!">
+        </form>
+    
+</body>
+</html>
