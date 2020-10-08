@@ -1,5 +1,7 @@
 from django.shortcuts import render, redirect, HttpResponse
 from .models import *
+from django.contrib import messages
+
 # Create your views here.
 def index(request):
     context = {
@@ -8,7 +10,12 @@ def index(request):
     return render(request,"index.html", context)
 
 def create(request):
-    if request.method=="POST":
+    errors = Course.objects.validator(request.POST)
+    if len(errors) > 0:
+        for key, val in errors.items():
+            messages.error(request, val)
+        return redirect("/courses")
+    else:
         desc= Description.objects.create(content=request.POST["desc"])
         course = Course.objects.create(name= request.POST["name"],description=desc)
         course.save()
